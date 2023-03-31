@@ -10,6 +10,14 @@
 </head>
 
 <body>
+    <!-- 検索窓を配置する -->
+    <form action="http://www.google.co.jp/search" method="get">検索窓</form>
+    <form>
+        <!-- 入力部分 クラスはtasktext-->
+        <input type="text" class="task_value">
+        <!-- 追加ボタン　クラスはdayaddbutton -->
+        <button class="task_submit">追加</button>
+    </form>
     <h1>task Of Days</h1>
 
     <p>変更点スマホから</p>
@@ -20,83 +28,60 @@
         <li><input type="checkbox">N予備</li>
         <li><input type="checkbox">作業進める</li>
     </ul>
+    <script>
+
+        // 入力部分のクラス(task_value)
+        const taskValue = document.getElementsByClassName('task_value')[0];
+
+        // 追加ボタンのクラス(task_submit)
+        const taskSubmit = document.getElementsByClassName('task_submit')[0];
+
+        // タスクを表示させるための空のリスト
+        const taskList = document.getElementsByClassName('task_list')[0];
 
 
-    <h4><input type="checkbox">3/1(月)</h4>
-    <ul>
+        // 追加ボタンを作成
+        const addTasks = (task) => {
+            // 入力したタスクを追加・表示
+            // クリエイトエレメントでlistの子要素を追加する
+            // showItemで表示する
+            const listItem = document.createElement('li');
+            const showItem = taskList.appendChild(listItem);
+            // innerHTML=DOM操作で中身を変更するプロパティ
+            showItem.innerHTML = task;
 
-        <li> <input type="checkbox">通所＆面談</li>
-        <li><input type="checkbox">N予備</li>
-        <li><input type="checkbox">作業進める</li>
+            // タスクに削除ボタンを付与
+            const deleteButton = document.createElement('button');
+            deleteButton.innerHTML = 'Delete';
+            listItem.appendChild(deleteButton);
 
-        <li><input type="checkbox">気分転換しつつ直帰する</li>
-    </ul>
-</body>
+            // 削除ボタンをクリックし、イベントを発動（タスクが削除）
+            // アッドイベントリスナーでクリック時にpreventDefault
+            // でタスクの取り消しを設定
+            deleteButton.addEventListener('click', evt => {
+                evt.preventDefault();
+                deleteTasks(deleteButton);
+            });
+        };
 
-<h4><input type="checkbox">3/3(金)</h4>
-<ul>
+        // 削除ボタンにタスクを消す機能を付与
 
-    <li> <input type="checkbox">通所＆面談</li>
-    <li><input type="checkbox">N予備</li>
-    <li><input type="checkbox">作業進める</li>
+        // 消した時の挙動
+        // removChildでlistの最後尾を消去する
 
-    <li><input type="checkbox">帰りに皮膚科寄る</li>
-</ul>
-<script src="../js/index.js"></script>
+        const deleteTasks = (deleteButton) => {
+            const chosenTask = deleteButton.closest('li');
+            taskList.removeChild(chosenTask);
+        };
 
-<h4><input type="checkbox">3/10(金)</h4>
-<ul>
-
-    <li> <input type="checkbox">通所＆面談</li>
-    <li><input type="checkbox">N予備</li>
-    <li><input type="checkbox">作業進める</li>
-
-    <li><input type="checkbox">19:00美容室</li>
-
-</ul>
-
-<h4><input type="checkbox">3/17(金)</h4>
-<ul>
-
-    <li> <input type="checkbox">通所＆面談</li>
-    <li><input type="checkbox">N予備</li>
-    <li><input type="checkbox">作業進める</li>
-    <p>mean paragraph</p>
-</ul>
-
-<h5>3/20(月)</h5>
-<ul>
-    <li>○医者(サインバルタ30mg続行)</li>
-    <li>○N予備進める</li>
-    <li>○通所</li>
-    <li>○直帰</li>
-</ul>
-
-<h5>3/22(水)</h5>
-<ul>
-    <li>○腰痛医者</li>
-    <li>○N予備</li>
-    <li>○通所</li>
-    <li>○宿題終わらす</li>
-    <li>○直帰</li>
-</ul>
-
-3/22(水)
-○腰痛医者
-○N予備進める
-○通所
-○直帰
-○宿題終わらす
-○4月分入金
-
-3/29(水)
-(最近学んだことDOM操作/[documentgetByElementなど])
-○N予備進める(一章とりあえず終わらす)
-○通所
-○直帰
-
-<script src="../js/index.js"></script>
-
+        // 追加ボタンをクリックし、イベントを発動（タスクが追加）
+        taskSubmit.addEventListener('click', evt => {
+            evt.preventDefault();
+            const task = taskValue.value;
+            addTasks(task);
+            taskValue.value = '';
+        });
+    </script>
 
 </body>
 

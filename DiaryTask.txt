@@ -47,10 +47,83 @@ N予備
  ○4月分入金
 
  3/29(水)
- 
+
  ○N予備進める(一章とりあえず終わらす)
  ○通所
  ○直帰
 
 
 
+
+<h4><input type="checkbox">3/1(月)</h4>
+    <ul>
+
+        <li> <input type="checkbox">通所＆面談</li>
+        <li><input type="checkbox">N予備</li>
+        <li><input type="checkbox">作業進める</li>
+
+        <li><input type="checkbox">気分転換しつつ直帰する</li>
+    </ul>
+</body>
+
+<h4><input type="checkbox">3/3(金)</h4>
+<ul>
+
+    <li> <input type="checkbox">通所＆面談</li>
+    <li><input type="checkbox">N予備</li>
+    <li><input type="checkbox">作業進める</li>
+
+    <li><input type="checkbox">帰りに皮膚科寄る</li>
+</ul>
+<script src="../js/index.js"></script>
+
+<h4><input type="checkbox">3/10(金)</h4>
+<ul>
+
+    <li> <input type="checkbox">通所＆面談</li>
+    <li><input type="checkbox">N予備</li>
+    <li><input type="checkbox">作業進める</li>
+
+    <li><input type="checkbox">19:00美容室</li>
+
+</ul>
+
+<h4><input type="checkbox">3/17(金)</h4>
+<ul>
+
+    <li> <input type="checkbox">通所＆面談</li>
+    <li><input type="checkbox">N予備</li>
+    <li><input type="checkbox">作業進める</li>
+    <p>mean paragraph</p>
+</ul>
+
+<h5>3/20(月)</h5>
+<ul>
+    <li>○医者(サインバルタ30mg続行)</li>
+    <li>○N予備進める</li>
+    <li>○通所</li>
+    <li>○直帰</li>
+</ul>
+
+<h5>3/22(水)</h5>
+
+<li>○腰痛医者</li>
+<li>通所</li>
+<li>宿題終わらす</li>
+<li>4月分入金</li>
+
+<h5>3/29(水)</h5>
+
+<li>(最近学んだことDOM操作/[documentgetByElementなど])
+</li>
+<li>通所</li>
+<li>宿題終わらす</li>
+<li>4月分入金</li>
+
+<h5>3/31(金)</h5>
+
+<li>(最近学んだことDOM操作/[documentgetByElementなど])
+</li>
+<li>通所</li>
+<li>N予備一章終わらす</li>
+<li>寿司食う</li>
