@@ -127,3 +127,15 @@ N予備
 <li>通所</li>
 <li>N予備一章終わらす</li>
 <li>寿司食う</li>
+
+<h5>4/7(金)</h5>
+
+<li>(最近学んだことDOM操作/[documentgetByElementなど])
+</li>
+<li>通所</li>
+<li>N予備一章終わらす</li>
+<li>気分転換して帰る</li>
+<li>面談</li>
+
+
+https://prod.liveshare.vsengsaas.visualstudio.com/join?FA9399EE127E3376E614545055FB4752528C
