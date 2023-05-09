@@ -1,3 +1,5 @@
+let sayhi = prompt('lets that');
+
 const taskValue = document.getElementsByClassName('task_value')[0];
 const taskSubmit = document.getElementsByClassName('task_submit')[0];
 const taskList = document.getElementsByClassName('task_list')[0];
