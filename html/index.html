@@ -21,11 +21,13 @@
     <h1>task Of Days</h1>
 
     <p>変更点スマホから</p>
-    <h5>5/10(水)</h5>
+    <h5>5/12(金)</h5>
 
     <li>一章終らせる</li>
     <li>通所</li>
-    <li>N予備二章開始する</li>
+    <li>面談</li>
+    <li>スマホの使い方を考え直す</li>
+    <p>(預ける、一時的な手放し。)</p>
 
 
 
@@ -86,6 +88,15 @@
             addTasks(task);
             taskValue.value = '';
         });
+
+        function decrement(n) {
+            console.log(n);
+            if (n === 0) {
+                return;
+            }
+            decrement(n - 1);
+        }
+
     </script>
 
 </body>
