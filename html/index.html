@@ -21,81 +21,100 @@
     <h1>task Of Days</h1>
 
     <p>変更点スマホから</p>
-    <h5>5/12(金)</h5>
-
-    <li>一章終らせる</li>
-    <li>通所</li>
-    <li>面談</li>
-    <li>スマホの使い方を考え直す</li>
-    <p>(預ける、一時的な手放し。)</p>
-
+    5/16(火)
+<li>一章終らせる</li>
+<li>通所</li>
+<li>面談</li>
+<li>スマホの使い方を考え直す</li>
+(預ける、一時的な手放し。)
 
 
     <script>
 
-        let prmpt = prompt('lets that');
 
-        alert('こちらから開始する');
-
-        // 入力部分のクラス(task_value)
-        const taskValue = document.getElementsByClassName('task_value')[0];
-
-        // 追加ボタンのクラス(task_submit)
-        const taskSubmit = document.ge.tElementsByClassName('task_submit')[0];
-
-        // タスクを表示させるための空のリスト
-        const taskList = document.getElementsByClassName('task_list')[0];
-
-
-        // 追加ボタンを作成
-        const addTasks = (task) => {
-            // 入力したタスクを追加・表示
-            // クリエイトエレメントでlistの子要素を追加する
-            // showItemで表示する
-            const listItem = document.createElement('li');
-            const showItem = taskList.appendChild(listItem);
-            // innerHTML=DOM操作で中身を変更するプロパティ
-            showItem.innerHTML = task;
-
-            // タスクに削除ボタンを付与
-            const deleteButton = document.createElement('button');
-            deleteButton.innerHTML = 'Delete';
-            listItem.appendChild(deleteButton);
-
-            // 削除ボタンをクリックし、イベントを発動（タスクが削除）
-            // アッドイベントリスナーでクリック時にpreventDefault
-            // でタスクの取り消しを設定
-            deleteButton.addEventListener('click', evt => {
-                evt.preventDefault();
-                deleteTasks(deleteButton);
-            });
-        };
-
-        // 削除ボタンにタスクを消す機能を付与
-
-        // 消した時の挙動
-        // removChildでlistの最後尾を消去する
-
-        const deleteTasks = (deleteButton) => {
-            const chosenTask = deleteButton.closest('li');
-            taskList.removeChild(chosenTask);
-        };
-
-        // 追加ボタンをクリックし、イベントを発動（タスクが追加）
-        taskSubmit.addEventListener('click', evt => {
-            evt.preventDefault();
-            const task = taskValue.value;
-            addTasks(task);
-            taskValue.value = '';
-        });
-
-        function decrement(n) {
-            console.log(n);
-            if (n === 0) {
-                return;
+        let counter = {
+            count: 0,
+            countUp: function () {
+                counter.count = counter.count + 3;
+            },
+            printNextCount: function () {
+                counter.countUp();
+                console.log(counter.count);
             }
-            decrement(n - 1);
-        }
+        };
+        counter.countUp();
+        counter.printNextCount();
+
+       
+        // console.log(counter);
+  
+
+        // window.alert('OKですか？');
+        // window.confirm('OKですか？');
+        // window.prompt('OKですか？');
+        // console.log('OKですか？');
+        // console.dir('OKですか？');
+
+        // alert('こちらから開始する');
+
+        // // 入力部分のクラス(task_value)
+        // const taskValue = document.getElementsByClassName('task_value')[0];
+
+        // // 追加ボタンのクラス(task_submit)
+        // const taskSubmit = document.ge.tElementsByClassName('task_submit')[0];
+
+        // // タスクを表示させるための空のリスト
+        // const taskList = document.getElementsByClassName('task_list')[0];
+
+
+        // // 追加ボタンを作成
+        // const addTasks = (task) => {
+        //     // 入力したタスクを追加・表示
+        //     // クリエイトエレメントでlistの子要素を追加する
+        //     // showItemで表示する
+        //     const listItem = document.createElement('li');
+        //     const showItem = taskList.appendChild(listItem);
+        //     // innerHTML=DOM操作で中身を変更するプロパティ
+        //     showItem.innerHTML = task;
+
+        //     // タスクに削除ボタンを付与
+        //     const deleteButton = document.createElement('button');
+        //     deleteButton.innerHTML = 'Delete';
+        //     listItem.appendChild(deleteButton);
+
+        //     // 削除ボタンをクリックし、イベントを発動（タスクが削除）
+        //     // アッドイベントリスナーでクリック時にpreventDefault
+        //     // でタスクの取り消しを設定
+        //     deleteButton.addEventListener('click', evt => {
+        //         evt.preventDefault();
+        //         deleteTasks(deleteButton);
+        //     });
+        // };
+
+        // // 削除ボタンにタスクを消す機能を付与
+
+        // // 消した時の挙動
+        // // removChildでlistの最後尾を消去する
+
+        // const deleteTasks = (deleteButton) => {
+        //     const chosenTask = deleteButton.closest('li');
+        //     taskList.removeChild(chosenTask);
+        // };
+
+        // // 追加ボタンをクリックし、イベントを発動（タスクが追加）
+        // taskSubmit.addEventListener('click', evt => {
+        //     evt.preventDefault();
+        //     const task = taskValue.value;
+        //     addTasks(task);
+        //     taskValue.value = '';
+        // });
+
+        // function decrement(n) {
+        //     console.log(n);
+        //     if (n === 0) {
+        //         return;
+        //     }
+        //     decrement(n - 1);
 
     </script>
 
