@@ -20,19 +20,19 @@
     </form>
     <h1>task Of Days</h1>
 
-    <p>変更点スマホから</p>
-    5/16(火)
-<li>一章終らせる</li>
-<li>通所</li>
-<li>面談</li>
-<li>スマホの使い方を考え直す</li>
-(預ける、一時的な手放し。)
+    <h4>本日のタスクを追加する</h4>
+    <p>二章を続ける</p>
 
+    <li>通所</li>
+    <li>面談</li>
+    <li>スマホの使い方を考え直す</li>
+    (預ける、一時的な手放し。)
 
+    `
     <script>
 
 
-        let counter = {
+        let counter = {`
             count: 0,
             countUp: function () {
                 counter.count = counter.count + 3;
@@ -45,9 +45,16 @@
         counter.countUp();
         counter.printNextCount();
 
-       
+
+        let encodedString = encodeURIComponent("Hello, World!");
+        console.log(encodedString);
+
+        let decodedString = decodeURIComponent("Hello%2C%20World!");
+        console.log(decodedString);
+
+
         // console.log(counter);
-  
+
 
         // window.alert('OKですか？');
         // window.confirm('OKですか？');
