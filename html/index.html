@@ -20,28 +20,34 @@
     </form>
     <h1>task Of Days</h1>
 
-    <h4>本日のタスクを追加する</h4>
-    <p>二章を続ける</p>
+    <p>5/25(木)</p>
 
+    <li>githubへ日報あげる</li>
     <li>通所</li>
-    <li>面談</li>
-    <li>スマホの使い方を考え直す</li>
-    (預ける、一時的な手放し。)
+    <li>お金のセーブ</li>
+    <li>6月2週目の予定を立てる</li>
 
-    `
     <script>
 
 
-        let counter = {`
+        {
             count: 0,
-            countUp: function () {
-                counter.count = counter.count + 3;
-            },
-            printNextCount: function () {
-                counter.countUp();
-                console.log(counter.count);
-            }
-        };
+                countUp: function () {
+                    counter.count = counter.count + 3;
+                },
+        },
+
+
+        let counter =
+            count: 0,
+                countUp: function () {
+                    counter.count = counter.count + 3;
+                },
+        printNextCount: function () {
+            counter.countUp();
+            console.log(counter.count);
+        }
+
         counter.countUp();
         counter.printNextCount();
 
@@ -122,7 +128,6 @@
         //         return;
         //     }
         //     decrement(n - 1);
-
     </script>
 
 </body>
