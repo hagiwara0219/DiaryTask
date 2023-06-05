@@ -105,45 +105,6 @@ N予備
     <li>○直帰</li>
 </ul>
 
-<h5>3/22(水)</h5>
-
-<li>○腰痛医者</li>
-<li>通所</li>
-<li>宿題終わらす</li>
-<li>4月分入金</li>
-
-<h5>3/29(水)</h5>
-
-<li>(最近学んだことDOM操作/[documentgetByElementなど])
-</li>
-<li>通所</li>
-<li>宿題終わらす</li>
-<li>4月分入金</li>
-
-<h5>3/31(金)</h5>
-
-<li>(最近学んだことDOM操作/[documentgetByElementなど])
-</li>
-<li>通所</li>
-<li>N予備一章終わらす</li>
-<li>寿司食う</li>
-
-<h5>4/7(金)</h5>
-
-<li>(最近学んだことDOM操作/[documentgetByElementなど])
-</li>
-<li>通所</li>
-<li>N予備一章終わらす</li>
-<li>気分転換して帰る</li>
-<li>面談</li>
-
-<h5>4/14(金)</h5>
-
-<li>引き続き一章</li>
-<li>通所</li>
-<li>N予備一章終わらす</li>
-<li>気分転換して帰る</li>
-<li>面談</li>
 
 https://prod.liveshare.vsengsaas.visualstudio.com/join?FA9399EE127E3376E614545055FB4752528C
 
@@ -231,6 +192,26 @@ https://prod.liveshare.vsengsaas.visualstudio.com/join?FA9399EE127E3376E61454505
 <li>通所 面談</li>
 <li>お金のセーブ</li>
 <li>歯医者で抜歯する＆体調報告</li>
+
+<p>アイデア</p>
+<li>毎月の医療券のリストを通知してくれるアプリ</li>
+
+6/2(金)
+
+<li>githubへ日報あげる</li>
+<li>通所 面談</li>
+<li>お金のセーブ</li>
+<li>歯医者で抜歯する＆体調報告</li>
+
+<p>アイデア</p>
+<li>毎月の医療券のリストを通知してくれるアプリ</li>
+
+6/5(月)
+
+<li>githubへ日報あげる</li>
+<li>医者　サインバルタ減少 30mg→20mg</li>
+<li>お金のセーブ</li>
+<li>美容室</li>
 
 <p>アイデア</p>
 <li>毎月の医療券のリストを通知してくれるアプリ</li>
