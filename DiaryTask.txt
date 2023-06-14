@@ -2,43 +2,6 @@
 Today's Task
 
 
-  3/22(水)
-○腰痛医者
- ○N予備進める
- ○通所
- ○直帰
-○宿題終わらす
- ○4月分入金
-
- 3/29(水)
-
- ○N予備進める(一章とりあえず終わらす)
- ○通所
- ○直帰
-
-
-
-
-<h4><input type="checkbox">3/1(月)</h4>
-    <ul>
-
-        <li> <input type="checkbox">通所＆面談</li>
-        <li><input type="checkbox">N予備</li>
-        <li><input type="checkbox">作業進める</li>
-
-        <li><input type="checkbox">気分転換しつつ直帰する</li>
-    </ul>
-</body>
-
-<h4><input type="checkbox">3/3(金)</h4>
-<ul>
-
-    <li> <input type="checkbox">通所＆面談</li>
-    <li><input type="checkbox">N予備</li>
-    <li><input type="checkbox">作業進める</li>
-
-    <li><input type="checkbox">帰りに皮膚科寄る</li>
-</ul>
 <script src="../js/index.js"></script>
 
 <h4><input type="checkbox">3/10(金)</h4>
@@ -212,3 +175,20 @@ https://prod.liveshare.vsengsaas.visualstudio.com/join?FA9399EE127E3376E61454505
 <li>毎月の医療券のリストを通知してくれるアプリ</li>  //TODO＋アラート(ポップアップ通知)
 <li>スマホの位置を特定する</li>
 <li>夜22時以降ランダムな時刻で早寝を促すもの</li>
+
+6/14(水)
+
+<li>githubへ日報あげる</li>
+
+<p>カリキュラムひとつ以上進める</p>
+<li>通所</li>
+<li>掃除機フィルターとパンチングボードの留め具買う</li>
+<li>明日の予約するか考え直し</li>
+<li>平穏に過ごす</li>
+
+
+<p>アイデア(なるべく小さめかつ単一機能のもの)</p>
+<li>毎月の医療券のリストを通知してくれるアプリ</li>  //TODO＋アラート(ポップアップ通知)
+<li>スマホの位置を特定する</li>
+<li>夜22時以降ランダムな時刻で早寝を促すもの</li>
+
