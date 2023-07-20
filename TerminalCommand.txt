@@ -29,8 +29,20 @@ kill プロセスID: 指定したプロセスを終了します。
 
 ○小ネタ○
 
+https://pyopyopyo.hatenablog.com/entry/2023/03/03/183000
+
+
+● 　「top」
 ターミナルに現在のCPU使用率を表示させる
+
+
+
+● find /
+
+階層を順番に表示してくれる
 
 ハッカーっぽい画面色々↓
 
-https://pyopyopyo.hatenablog.com/entry/2023/03/03/183000
+
+
+
