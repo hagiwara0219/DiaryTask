@@ -19,89 +19,92 @@
         <button class="task_submit">追加</button>
     </form>
 
-    <h4> 7/28(金)</h4>
 
-    <li>githubへ日報あげる</li>
+    <h4> ※※7/28(金)※※</h4>
 
-    <p>一章以上進める</p>
-    <li>ほどほどに休憩を取りつつ集中のバランスを掴んでいく</li>
-    <li> 面談</li>
-    <li>定時まで頑張る</li>
-    <li>帰ったら更新の資料の確認</li>
-    <li>cy to report can be later(要資料確認)</li>
+    <h3>今日の目標</h3s>
 
-
-    <p>アイデア(なるべく小さめかつ単一機能のもの)</p>
-    <li>毎月の医療券のリストを通知してくれるアプリ</li> //TODO＋アラート(ポップアップ通知)
-    <li>スマホの位置を特定する</li>
-    <li>夜22時以降ランダムな時刻で早寝を促すもの</li>
-
-    <h3>面談内容</h3>
-
-    <p>内容</p>
-    <ol>
-        <li>体調</li>
-        まあまあ、波もあるがなるべく日中起きて活動することが出来ている
-
-        <li>進捗</li>
-        N予備の環境構築をやっている
-
-        <li>今後</li>
-        引き続きやる。なるべく間を開けない。
-        なるべく視界の情報を遮断出来る方法を探しながらやっていく、
-        キャップをかぶる、壁際などにする。目を細める、など
-        なお静かすぎる環境は集中できないので、適度な音などがあり、
-        かつ鼓膜を塞げて、音楽などを聴きながらが好ましい
-
-        ↓
-        【面談後の内容】
-        集中することに意識が行っていることが
-        離脱前後の当初の体調に戻っていて心配。
-
-        ↓
-        あまり元気が無さそうなに見えるらしい
-    </ol>
+        <ol>
+            <li> 定時まで頑張る</li>
+            <h5>具体的に↓</h5>
+            <h4></h4>
+            <li>4時までに簡単なものをテンプレートを使ってもいいので作る</li>
+            <li>なるべく音楽を聴いたりしながら集中してみる</li>
+        </ol>
 
 
-    <p>今日のタスク</p>
+        <h4>※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※</h4>
+        <h3>生活</h3>
 
-    <ul>今日のタスク
-        <li>3時までに一章進める</li>
-        <li>簡単に</li>
-        <li></li>
-    </ul>
+        <ol>
+            <li>帰ったら更新の資料の確認</li>
+            <li>cy to report can be later(要資料確認)</li>
 
+        </ol>
 
-    <script>
-
-
-        {
-            count: 0,
-                countUp: function () {
-                    counter.count = counter.count + 3;
-                },
-        },
+        <h4>※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※</h4>
 
 
-        let counter =
-            count: 0,
-                countUp: function () {
-                    counter.count = counter.count + 3;
-                },
-        printNextCount: function () {
+        <h3>面談内容</h3>
+
+        <h4>内容</h4>
+        <ol>
+            <li>体調</li>
+            まあまあ、波もあるがなるべく日中起きて活動することが出来ている
+
+            <li>進捗</li>
+            N予備の環境構築をやっている
+
+            <li>今後</li>
+            引き続きやる。なるべく間を開けない。
+            なるべく視界の情報を遮断出来る方法を探しながらやっていく、
+            キャップをかぶる、壁際などにする。目を細める、など
+            なお静かすぎる環境は集中できないので、適度な音などがあり、
+            かつ鼓膜を塞げて、音楽などを聴きながらが好ましい
+            <br>
+            <br>
+            ↓<br>
+            【面談後評価】
+            集中することに意識が行っていることが
+            離脱前後の当初の体調に戻っていて心配。
+            <br>
+            ↓
+            あまり元気が無さそうなに見えるらしい
+        </ol>
+
+        <h4>※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※</h4>
+
+
+        <script>
+
+
+            {
+                count: 0,
+                    countUp: function () {
+                        counter.count = counter.count + 3;
+                    },
+            },
+
+
+            let counter =
+                count: 0,
+                    countUp: function () {
+                        counter.count = counter.count + 3;
+                    },
+            printNextCount: function () {
+                counter.countUp();
+                console.log(counter.count);
+            }
+
             counter.countUp();
-            console.log(counter.count);
-        }
-
-        counter.countUp();
-        counter.printNextCount();
+            counter.printNextCount();
 
 
-        let encodedString = encodeURIComponent("Hello, World!");
-        console.log(encodedString);
+            let encodedString = encodeURIComponent("Hello, World!");
+            console.log(encodedString);
 
-        let decodedString = decodeURIComponent("Hello%2C%20World!");
-        console.log(decodedString);
+            let decodedString = decodeURIComponent("Hello%2C%20World!");
+            console.log(decodedString);
 
 
         // console.log(counter);
@@ -173,7 +176,7 @@
         //         return;
         //     }
         //     decrement(n - 1);
-    </script>
+        </script>
 
 </body>
 
