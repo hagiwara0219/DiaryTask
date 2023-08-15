@@ -37,5 +37,10 @@
 //     taskValue.value = '';
 // });
 
+alert("konnichiha")
 
+function sayHello() {
+    console.log('hello');
+}
+setInterval(sayHello, 1000);
 
